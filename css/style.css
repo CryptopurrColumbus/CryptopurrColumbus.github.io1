@@ -1,9 +1,196 @@
-#logo {
-	font-size: 170px;/*make this shit responsive>*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of meyer's beginning of purva's tyle sheet*/
 
 /*#main-nav {
 	display: inline-block;
+	max-height: 100vh;
+	min-height: 100vh;
+	background: blue;
+	width: 20%;
+	order: 1;
+	
+
 }
-#
+
+header {
+
+	display: inline-block;
+	background: yellow;
+	float:right;
+	position: fixed;
+	order:-1;
+
+}
+
+*{
+	border-style: solid;
+
+}
+
+header h1{
+	float:right;
+}
+header h2 {
+	float: right;
+
+
+}
+
+#main-nav a {
+	display: inline-block;
+	border-style: solid;
+	width: 100%;
+	text-indent: 30%;
+	margin-bottom: 50%;
+	margin-top:30%;
+}
+
+#logo {
+	width: 12%;
+	position: absolute;
+    top: 10%;
+    left:27%;
+
+}
+
+.lorem{
+	display: inline-block;
+	font-size: 2%;
+	width : 200px;
+	height: 200px;
+	position:fixed;
+	float: left;
+	
+
+}
+
+main a img{
+	width: 28%;
+	margin-right: 10px;
+}
+
+main{
+	text-indent: 6%;
+
+}
+
+footer{
+	text-indent: 30%;
+}
+ 
+body {
+	display: inline-block;
+} 
 */
+
+/*purva's stylesheet shot 2 */
+
+div{
+	border-style: solid;
+	border-width: 2px;
+}
+
+#logodiv{
+	width:30%;
+	display: inline-block;
+}
+
+#headerdiv{
+	width:30%;
+	display: inline-block;
+}
+
+#logo{
+	width:10%;
+}
+#nav-div{
+	width:20vw;
+	display: inline-block;
+	height:100vh;
+	background:black;
+
+}
+#main-nav{
+	height:100vh;
+	width:20vw;
+	background: grey;
+	display:inline-block;
+}
+
+#main-nav a{
+	display: block;
+
+}
+div{
+	display: inline-block;
+}
+#loremdiv{
+	width:30%;
+	display:inline-block;
+
+}
+p{
+	display:inline-block;
+	margin:0px;
+	
+}
+.lorem{
+	/*width:100%;
+	display:inline-block;*/
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+body{
+	display: inline-block;
+}
+html{
+	display: inline-block;
+}
